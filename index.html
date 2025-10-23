@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" href="https://tomcollinsresearch.net/images/favicon.ico" />
-    <title>VRTGO (Vertigo VR version)</title>
+    <title>A-Frame starter</title>
 
     <script src="https://cdn.jsdelivr.net/npm/aframe@1.5.0/dist/aframe-master.min.js"></script>
     <!-- This library is cool! -->
@@ -19,7 +19,7 @@
 
   <body style="margin: 0; overflow: hidden;">
     <a-scene id="scene" background="color: #050505" ticker>
-      <a-entity environment="preset: starry; groundColor: #808099; grid: cross"></a-entity>
+      <a-entity environment="preset: forest; groundColor: #808099; grid: cross"></a-entity>
 
       <!-- <a-assets>
         <img id="my-cover" src="https://tomcollinsresearch.net/audio/aisc2023/vrtgo/assets/cover.png">
@@ -33,7 +33,7 @@
       <a-box id="box2" position="130 1 -45" rotation="0 45 0" color="#2B4141" shadow scale="3 3 3"></a-box>
       <a-sphere id="sphere" position="140 8 -50" radius="6.25" color="#EF2D5E" shadow></a-sphere>
       <a-cylinder id="cylinder" position="-10 0.75 60" radius="0.5" height="5" color="#FFC65D" shadow></a-cylinder> -->
-      
+
 
       <a-entity id="player" position="0 2.5 0"
                 player-move="controllerListenerId: #controller-data;">
